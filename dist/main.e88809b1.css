@@ -1,0 +1,97 @@
+body {
+  transition: 1s;
+  background-color: #4e1a68; }
+
+h1, h2, h3, h4, h5, h6, p, span {
+  color: white; }
+
+.player {
+  width: 90%;
+  margin: 10vh auto; }
+  .player svg#sklogo {
+    object-fit: cover;
+    display: block;
+    width: 100px;
+    height: auto;
+    margin: 40px auto; }
+  .player #skmotion {
+    margin: 0 0 0 -238px;
+    width: 200px; }
+    .player #skmotion path {
+      stroke-width: 1;
+      -webkit-animation: drawing 2s ease-in-out forwards;
+      animation: drawing 2s ease-in forwards; }
+  .player .musics audio {
+    display: none; }
+  .player .visualizer {
+    display: block;
+    height: 200px;
+    width: 100%; }
+  .player .nameBox {
+    margin: 10px 0; }
+  .player .controller {
+    display: flex;
+    justify-content: space-between; }
+    .player .controller .button {
+      transition: .08s;
+      width: 100px; }
+      .player .controller .button:hover {
+        opacity: .5; }
+
+#icon-01 {
+  background-color: #5B5B66; }
+
+#icon-02 {
+  background-color: #99826B; }
+
+#icon-03 {
+  background-color: #757575; }
+
+#icon-04 {
+  background-color: #99996B; }
+
+#icon-05 {
+  background-color: #6B9999; }
+
+#icon-06 {
+  background-color: #193E63; }
+
+#icon-07 {
+  background-color: #753B3B; }
+
+#icon-08 {
+  background-color: #6B8A99; }
+
+#icon-09 {
+  background-color: #6B6B99; }
+
+#icon-10 {
+  background-color: #BFA760; }
+
+#icon-11 {
+  background-color: #8B9299; }
+
+path, rect, circle, polygon, polyline {
+  fill: none;
+  stroke: #fff;
+  stroke-dasharray: 2000;
+  stroke-dashoffset: 0;
+  stroke-width: 3;
+  -webkit-animation: drawing 4s ease-in-out forwards;
+  animation: drawing 4s ease-in-out forwards; }
+
+@keyframes drawing {
+  0% {
+    stroke-dashoffset: 2000;
+    fill: transparent; }
+  50% {
+    fill: transparent; }
+  100% {
+    stroke-dashoffset: 0;
+    fill: #fff; } }
+
+.info {
+  color: white; }
+
+
+/*# sourceMappingURL=/main.e88809b1.css.map */

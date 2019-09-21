@@ -2,9 +2,10 @@
   "name": "afroplayer",
   "version": "1.0.0",
   "description": "",
-  "main": "main.js",
+  "main": "index.pug",
   "scripts": {
-    "dev": "parcel src/pug/index.pug"
+    "dev": "parcel src/pug/index.pug --open",
+    "build": "parcel src/pug/index.pug -d docs"
   },
   "author": "",
   "license": "ISC",
